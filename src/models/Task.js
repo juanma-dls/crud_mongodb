@@ -14,7 +14,7 @@ const taskSchema = new Schema(
             unique: true,
             require: true
         },
-        done: {
+        finish: {
             type: Boolean,
             default: false
         }
